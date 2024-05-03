@@ -11,7 +11,6 @@ object CalculatorLogic {
             text.text = "Erro"
         }
     }
-
     fun clear(text: Text) {
         text.text = ""
     }

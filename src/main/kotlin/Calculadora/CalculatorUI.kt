@@ -9,7 +9,6 @@ import org.eclipse.swt.widgets.Text
 
 class CalculatorUI(private val shell: Shell){
     private val text: Text
-
     init {
         shell.text = "Calculadora"
         shell.layout = GridLayout(4, true)
